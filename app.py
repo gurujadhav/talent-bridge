@@ -1,7 +1,7 @@
 import re
 import json
 from flask import Flask, request, jsonify, render_template
-from db import get_connection
+from utils.db import get_connection
 import google.generativeai as genai
 import os
 from dotenv import load_dotenv
